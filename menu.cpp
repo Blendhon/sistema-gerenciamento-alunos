@@ -27,9 +27,9 @@ void reset(GerenciadorAlunos *gerenciador) {
 void titulo() {
 	system("cls");
 	printf("--------------------------------\n\n"
-		"     ESTRUTURA DE DADOS II\n"
-		"     TRABALHO DE ORDENACAO\n"
-		"    ALUNOS: BLENDHON E RAFAEL\n"
+		"   LINGUAGENS DE PROGRAMACAO\n"
+		"  SIS. GERENCIAMENTO DE ALUNOS\n"
+		"    ALUNOS: BLENDHON E BRUNO\n"
 		"\n--------------------------------\n\n");
 }
 

@@ -1,0 +1,16 @@
+Bruno
+22
+Linguagem de Programacao
+9.00
+Yan
+21
+Sistema de Informacao
+8.00
+Rafael
+20
+Aeronautica
+10.00
+Blendhon
+21
+Ciencia da Computacao
+6.00

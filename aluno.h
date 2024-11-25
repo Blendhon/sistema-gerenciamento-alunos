@@ -5,6 +5,7 @@
 #define MAX_ALUNOS 100 // Limite máximo de alunos
 #define TAM_NOME 50    // Tamanho máximo do nome do aluno
 #define TAM_CURSO 50   // Tamanho máximo do curso
+#define ARQUIVO "alunos.txt"
 
 // Estrutura para representar um aluno
 typedef struct {
@@ -21,40 +22,12 @@ typedef struct {
 } GerenciadorAlunos;
 
 // Protótipos das funções
-
-/**
- * Inicializa o gerenciador de alunos.
- * 
- * @param g Ponteiro para a estrutura GerenciadorAlunos que será inicializada.
- */
 void inicializarGerenciador(GerenciadorAlunos *g);
-
-/**
- * Adiciona um novo aluno ao gerenciador.
- * 
- * @param g Ponteiro para a estrutura GerenciadorAlunos onde o aluno será adicionado.
- */
 void adicionarAluno(GerenciadorAlunos *g);
-
-/**
- * Edita as informações de um aluno já cadastrado.
- * 
- * @param g Ponteiro para a estrutura GerenciadorAlunos onde o aluno será editado.
- */
 void editarAluno(GerenciadorAlunos *g);
-
-/**
- * Remove um aluno pelo nome.
- * 
- * @param g Ponteiro para a estrutura GerenciadorAlunos onde o aluno será removido.
- */
 void removerAluno(GerenciadorAlunos *g);
-
-/**
- * Lista todos os alunos cadastrados.
- * 
- * @param g Ponteiro para a estrutura GerenciadorAlunos a ser listada.
- */
 void listarAlunos(const GerenciadorAlunos *g);
+void carregarAlunos(GerenciadorAlunos *g);
+void salvarAlunos(const GerenciadorAlunos *g);
 
 #endif // ALUNO_H

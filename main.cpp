@@ -5,6 +5,7 @@
 int main() {
     GerenciadorAlunos gerenciador;
     inicializarGerenciador(&gerenciador);
+    carregarAlunos(&gerenciador);
     menu_ini(&gerenciador);
     return 0;
 }

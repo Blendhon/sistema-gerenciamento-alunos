@@ -113,6 +113,8 @@ void menu_ini(GerenciadorAlunos *gerenciador) {
 										
 					case 4:
 						titulo();
+						printf("\nSalvando dados e saindo...\n");
+                		salvarAlunos(gerenciador);
 						printf("\n\n--------------------------------\n\n"
 							"Precione qualquer tecla para fechar o programa.");
 						
